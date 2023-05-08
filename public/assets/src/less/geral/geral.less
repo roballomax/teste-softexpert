@@ -1,0 +1,56 @@
+* {
+    padding         : 0;
+    margin          : 0;
+    list-style      : none;
+    text-decoration : none;
+}
+
+body {
+    background-color: @cinza;
+}
+
+.conteudo {
+    background-color: @white;
+    min-height: calc(100vh - 87px);
+}
+
+a {
+    text-decoration : none;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h2 {
+    .tipografia(@primaryColor, 26px, 700);
+    margin: 15px 0 0 0;
+}
+
+.container {
+    margin: auto;
+}
+
+.bt {
+    .tipografia(@black, 14px, 400, normal, center);
+    padding: 8px;
+    background-color: lighten(@cinza, 15%);
+    border: solid 1px @black;
+    border-radius: 3px;
+    display: inline-block;
+    
+
+    &.bt-info {
+        background-color: darken(@primaryColor, 8%);
+        border: solid 0px;
+        font-weight: 600;
+        color: @white;
+    }
+
+    &.bt-success {
+        background-color: darken(@green, 8%);
+        border: solid 0px;
+        font-weight: 600;
+        color: @white;
+    }
+}

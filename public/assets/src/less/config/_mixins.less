@@ -1,0 +1,24 @@
+.trata-propriedade(@elemento, @valorElemento) {
+    -webkit-@{elemento}     : @valorElemento;
+    -moz-@{elemento}        : @valorElemento;
+    -ms-@{elemento}         : @valorElemento;
+    -o-@{elemento}          : @valorElemento;
+    @{elemento}             : @valorElemento;
+}
+
+.tipografia (
+        @color          : @black,   // define a cor do text
+        @size           : 14px,     // define o tamanho do texto
+        @fontWeight     : 400,      // define a grossura do traçado do texto
+        @fontStyle      : normal,   // seta se é italico, normal, traçado...
+        @textAlign      : left,     // alinhamento do texto
+        @textTransform  : none      // se é tudo maiúsculo ou minúsculo
+    ) {
+    color           : @color;
+    font-size       : @size;
+    
+    font-weight     : @fontWeight;
+    font-style      : @fontStyle;
+    text-align      : @textAlign;
+    text-transform  : @textTransform;
+}

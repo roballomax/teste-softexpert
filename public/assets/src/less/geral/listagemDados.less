@@ -1,0 +1,52 @@
+.cabecalho-listagem {
+    overflow: hidden;
+    margin-bottom: 30px;
+    .bt {
+        margin: 15px 0 0 0;
+        float: right;
+    }
+    
+}
+
+.corpo-listagem, .corpo-venda {
+    table {
+        margin-bottom: 30px;
+
+        thead {
+            background-color: @primaryColor;
+            color: #fff;
+
+            tr {
+                th {
+                    padding: 10px 0;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    text-align: center;
+                    padding: 5px 0;
+                }
+
+                &:nth-child(odd) {
+                    background-color: lighten(@cinza, 5%);
+                }
+            }
+        }
+
+        tfoot {
+            tr {
+                border-top: solid 1px @primaryColor;
+                border-bottom: solid 1px @primaryColor;
+
+                td {
+                    font-weight: bold;
+                    padding: 10px 5px;
+                }
+            }
+        }
+
+    }
+}

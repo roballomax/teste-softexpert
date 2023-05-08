@@ -1,0 +1,48 @@
+.cabecalho-form {
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .bt {
+        margin: 20px 0 0 0;
+        float: right;
+    }
+}
+
+.corpo-form {
+    .bt-enviar {
+        margin-top: 15px;
+    }
+}
+
+.campo {
+
+    label {
+        .tipografia(fade(@black, 90%), 12px, 700);
+        display: block;
+        padding: 5px 0;
+    }
+
+    input, select {
+        width: 100%;
+        border: solid 1px fade(@black, 40%);
+        border-radius: 2px !important;
+        margin-bottom: 5px;
+    }
+
+    [type=text], [type=number], select {
+        padding: 5px;
+        .tipografia(@black, 12px);
+    }
+
+    &.form-erro {
+        input, select {
+            border: solid 1px @errorColor;
+        }
+
+        &::after {
+            content: '* Este campo precisa ser preenchido!';
+            .tipografia(@errorColor, 12px);
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "desafio-softexpert",
+  "version": "1.0.0",
+  "description": "teste softexpert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roballomax/desafio-softexpert.git"
+  },
+  "author": "Max Roballo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roballomax/desafio-softexpert/issues"
+  },
+  "homepage": "https://github.com/roballomax/desafio-softexpert#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-css-condense": "^1.1.2",
+    "gulp-less": "^5.0.0"
+  },
+  "keywords": [
+    "teste",
+    "softexpert"
+  ]
+}
