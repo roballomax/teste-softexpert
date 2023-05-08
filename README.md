@@ -1,4 +1,4 @@
-# Desafio SoftExpert
+# Teste SoftExpert
 
 ## Instruções para deploy do teste:
 
@@ -8,4 +8,4 @@
 
 ### Obs:
 
-O arquivo Sql está na raiz do projeto com o nome de `desafio_softexpert.sql`.
+O arquivo Sql está na raiz do projeto com o nome de `teste_softexpert.sql`.
